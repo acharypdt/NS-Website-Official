@@ -1,14 +1,104 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavaSanganakah Multiventures</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Khand:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <header>
+        <nav>
+            <div class="logo">NavaSanganakah</div>
+            <ul>
+                <li><a href="#verticals">Our Verticals</a></li>
+                <li><a href="#founder">Founder's Corner</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Coding the Future, Rooted in Tradition.</h1>
+                <button class="cta-button">Explore Our Ventures</button>
+            </div>
+        </section>
+
+        <section id="verticals" class="verticals">
+            <h2>Our Verticals</h2>
+            <div class="verticals-container">
+                <div class="vertical">
+                    <h3>Tech Services</h3>
+                    <div class="services">
+                        <div class="service">
+                            <img src="https://placehold.co/100x100/4285F4/ffffff?text=Mobile" alt="Mobile Apps">
+                            <p>Mobile Apps</p>
+                        </div>
+                        <div class="service">
+                            <img src="https://placehold.co/100x100/34A853/ffffff?text=Web" alt="Web Design">
+                            <p>Web Design</p>
+                        </div>
+                        <div class="service">
+                            <img src="https://placehold.co/100x100/FBBC05/ffffff?text=Cloud" alt="Cloud">
+                            <p>Cloud Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <h3>Yagya Ashram</h3>
+                    <div class="services">
+                        <div class="service">
+                            <img src="https://placehold.co/100x100/F4B400/ffffff?text=Dhoop" alt="Natural Products">
+                            <p>Natural Products</p>
+                        </div>
+                        <div class="service">
+                            <img src="https://placehold.co/100x100/EA4335/ffffff?text=Astro" alt="Astrology">
+                            <p>Astrology</p>
+                        </div>
+                        <div class="service">
+                            <img src="https://placehold.co/100x100/9C27B0/ffffff?text=Wellness" alt="Spiritual Wellness">
+                            <p>Spiritual Wellness</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="founder" class="founder">
+            <h2>Founder's Corner</h2>
+            <div class="founder-container">
+                <img src="https://placehold.co/200x200/ff9933/0a192f?text=Founder" alt="Founder of NavaSanganakah Multiventures">
+                <div class="founder-info">
+                    <p>A visionary leader bridging the gap between ancient wisdom and modern technology. With expertise in both Vedic sciences and cutting-edge software development, our founder guides NavaSanganakah Multiventures with a unique and powerful perspective.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio & Products</h2>
+            <div class="portfolio-grid">
+                <nsm-card title="App Project 1" image="https://placehold.co/300x200/0a192f/ff9933?text=App1"></nsm-card>
+                <nsm-card title="Natural Product 1" image="https://placehold.co/300x200/0a192f/ff9933?text=Product1"></nsm-card>
+                <nsm-card title="App Project 2" image="https://placehold.co/300x200/0a192f/ff9933?text=App2"></nsm-card>
+                <nsm-card title="Natural Product 2" image="https://placehold.co/300x200/0a192f/ff9933?text=Product2"></nsm-card>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+        </div>
+        <p>&copy; 2026 NavaSanganakah Multiventures</p>
+        <p>GSTIN: [Placeholder]</p>
+        <p>Regd. Office: Suthaliya, Rajgarh</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
