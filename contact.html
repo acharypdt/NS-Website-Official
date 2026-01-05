@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NavaSanganakah Multiventures | Ancient Wisdom, Modern Solutions</title>
-    <meta name="description" content="NavaSanganakah Multiventures bridges ancient Vedic wisdom with next-gen innovation, offering software development, astrology consultancy, and natural products.">
+    <title>Contact Us | NavaSanganakah Multiventures</title>
+    <meta name="description" content="Contact NavaSanganakah Multiventures for software development, astrology consultancy, or any other inquiries. Find our phone number, email, and office address.">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-form-container {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px 0 var(--shadow-color);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--light-slate);
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 1rem;
+            border: none;
+            border-radius: 5px;
+            background: linear-gradient(45deg, var(--warm-gold), var(--saffron));
+            color: var(--white);
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .contact-form button:hover {
+            box-shadow: 0 0 20px var(--warm-gold);
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,34 +54,19 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <section class="hero">
-            <h1 class="fade-in">Bridging Ancient Vedic Wisdom with Next-Gen Innovation</h1>
-            <p class="fade-in">We harmonize timeless spiritual knowledge with modern technology to create solutions that enlighten, empower, and elevate.</p>
-            <div class="cta-buttons fade-in">
-                <a href="contact.html" class="cta-primary">Book Astrology Consultation</a>
-                <a href="services.html" class="cta-secondary">Explore Tech Services</a>
+        <section id="contact" class="fade-in">
+            <h2>Get in Touch</h2>
+            <div class="contact-form-container fade-in">
+                <form class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
             </div>
         </section>
-
-        <section id="services-preview" class="home-section fade-in">
-            <h2>Our Core Services</h2>
-            <p>From cutting-edge software solutions to profound astrological insights, we offer a unique blend of services to cater to your modern and spiritual needs. Each service is delivered with a commitment to excellence and authenticity. <a href="services.html">Explore Our Services in Detail</a></p>
-        </section>
-
-        <section id="shop-preview" class="home-section fade-in">
-            <h2>Our Natural Products</h2>
-            <p>Discover our range of handmade, natural products crafted with purity and tradition. Our dhoopbatti and soaps are made from the finest ingredients, promoting wellness and a connection to nature. <a href="shop.html">Visit Our Shop</a></p>
-        </section>
-
-        <section id="about-preview" class="home-section fade-in">
-            <h2>Our Mission</h2>
-            <p>NavaSanganakah is more than a company; it's a mission to harmonize technology with spirituality. We believe in creating a better future by respecting the wisdom of the past. <a href="about.html">Read Our Story</a></p>
-        </section>
-
     </main>
-
     <footer id="contact-footer">
         <div class="footer-content">
              <div class="footer-section about-us fade-in">

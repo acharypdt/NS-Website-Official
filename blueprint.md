@@ -1,52 +1,53 @@
 
-# Blueprint: NavaSanganakah Multiventures Website Redesign
+# Project Blueprint: NavaSanganakah Multiventures Website
 
 ## Overview
 
-This document outlines the plan for redesigning the NavaSanganakah Multiventures website. The goal is to create a modern, visually appealing, and user-friendly website that effectively showcases the company's unique blend of technology and tradition.
+This document outlines the plan for creating a professional, multi-service business website for "NavaSanganakah Multiventures". The website will showcase the company's unique blend of modern technology and Vedic tradition, offering services in tech, spiritual consultancy, and natural product manufacturing.
 
-## Current State
+## Brand Identity
 
-The existing website has a basic structure with the following sections:
+*   **Primary Colors:** Tech Blue (`#0a192f`), Warm Gold (`#ff9933`), Saffron (`#f4c430`)
+*   **Typography:** A clean, modern sans-serif font for body text and a more traditional or elegant serif font for headings.
+*   **Visuals:** A fusion of tech-related imagery (code, circuits) and traditional Indian spiritual patterns.
 
-*   Header with navigation
-*   Hero section
-*   "Our Verticals" section
-*   "Founder's Corner" section
-*   "Portfolio" section
-*   Footer
+## Website Structure & Features
 
-The site uses placeholder images and has a minimal design.
+The website will be a single-page responsive design with the following sections:
 
-## Redesign Plan
+1.  **Header & Navigation:** A sticky header with a logo and links to different sections of the page.
+2.  **Hero Section:**
+    *   **Headline:** "Bridging Ancient Vedic Wisdom with Next-Gen Innovation"
+    *   **Call-to-Action Buttons:** "Book Astrology Consultation" and "Explore Tech Services"
+3.  **Services Section:**
+    *   Cards detailing:
+        *   Software Development (Flutter, Firebase)
+        *   Astrology Consultancy (Jyotish)
+        *   Education Services
+4.  **Shop/E-commerce Section:**
+    *   A gallery of natural products (Agarbatti, Soaps).
+    *   Product descriptions with a focus on "Purity and Tradition".
+5.  **About Us Section:**
+    *   Narrative on the company's mission to blend technology with spiritual and social work.
+    *   Mention of the "Yagya Ashram" project.
+6.  **Latest Projects Section:**
+    *   A showcase of recent tech projects.
+7.  **Spiritual Insights Blog Section:**
+    *   Links to recent blog posts or articles.
+8.  **Founder's Corner Section:**
+    *   A brief bio of the founder.
+9.  **Contact & Footer Section:**
+    *   **Registered Office Address:** Gindorhat, Biaora Sironj Road, Suthaliya, District Rajgarh, Madhya Pradesh - 465677
+    *   **GSTIN:** 23CXEPT4904P1ZZ
+    *   **Udyam Registration No:** UDYAM-MP-36-0053662
+    *   **Contact:** Phone: +919669509951 | Email: info@navasanganakah.com
 
-The redesign will focus on the following areas:
+## Current Action Plan
 
-### 1. Visual Design
-
-*   **Color Palette:** Implement a professional color scheme that reflects the company's brand.
-*   **Typography:** Utilize the "Poppins" and "Khand" fonts to create a clear and engaging visual hierarchy.
-*   **Layout:** Improve spacing, alignment, and overall composition for a more polished look.
-*   **Iconography:** Use icons to enhance the "Our Verticals" section.
-*   **Imagery:** Replace placeholder images with more relevant and high-quality images.
-
-### 2. Web Components
-
-*   **`nsm-card`:** Create a custom web component for the portfolio items. This will encapsulate the card's structure, style, and behavior, making it reusable and easy to manage.
-
-### 3. Responsiveness
-
-*   Ensure the website is fully responsive and provides an optimal viewing experience on all devices (desktops, tablets, and mobile phones).
-
-### 4. Code Refinements
-
-*   **HTML:** Update the HTML structure to be more semantic and accessible.
-*   **CSS:** Rewrite the CSS in `style.css` to implement the new design.
-*   **JavaScript:** Create the `nsm-card` web component in `main.js`.
-
-## Actionable Steps
-
-1.  **Update `blueprint.md`:** Create this document to outline the project plan.
-2.  **Update `style.css`:** Implement the new design with a modern and responsive layout.
-3.  **Update `main.js`:** Create the `<nsm-card>` web component.
-4.  **Update `index.html`:** Refine the content and structure to align with the new design.
+*   **Objective:** Redesign the website based on the user's request.
+*   **Steps:**
+    1.  Update `index.html` with the new structure and content.
+    2.  Update `style.css` to reflect the new brand identity and design.
+    3.  Update `main.js` to add interactivity and web components.
+    4.  Create `privacy.html` and `terms.html` for legal information.
+    5.  Create `legal.css` for styling the legal pages.
