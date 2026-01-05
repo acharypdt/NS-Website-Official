@@ -1,75 +1,52 @@
 
-# Blueprint: NavaSanganakah Multiventures Website
+# Blueprint: NavaSanganakah Multiventures Website Redesign
 
 ## Overview
 
-This document outlines the design and development plan for the corporate website of "NavaSanganakah Multiventures". The website will reflect the company's unique identity, which fuses ancient Vedic culture with modern technology. The goal is to create a high-conversion, visually stunning, and spiritually resonant online presence.
+This document outlines the plan for redesigning the NavaSanganakah Multiventures website. The goal is to create a modern, visually appealing, and user-friendly website that effectively showcases the company's unique blend of technology and tradition.
 
-## Style, Design, and Features
+## Current State
 
-### Visual Theme: "Digital Dharma"
+The existing website has a basic structure with the following sections:
 
-*   **Color Palette:**
-    *   Primary Background: Deep Navy Blue (`#0a192f`) or Charcoal Black (`#121212`). We will proceed with a dark charcoal.
-    *   Accent Colors: Saffron (`#FF9933`) and Golden gradients for highlights, buttons, and important UI elements.
-*   **Typography:**
-    *   Headings: A Devanagari-style font (Khand) to evoke a sense of tradition and Sanskrit manuscripts.
-    *   Body Text: A clean, modern Sans-Serif font (Poppins) for readability and a technological feel.
-*   **Aesthetics:**
-    *   Premium and Mysterious: Dark theme, subtle gradients, and high-quality imagery.
-    *   Technological: Elements like binary code patterns, circuit board motifs, and clean lines.
-    *   Spiritual: Imagery related to Vedic culture, such as manuscripts, yagya, and astrological symbols.
-    *   Layout: Modern, clean, and well-structured with ample white space. Mobile-responsive design is a priority.
-    *   Texture: A subtle noise texture will be applied to the background to add a tactile feel.
-    *   Visual Effects: Multi-layered drop shadows on cards and interactive elements to create depth and a "lifted" look.
+*   Header with navigation
+*   Hero section
+*   "Our Verticals" section
+*   "Founder's Corner" section
+*   "Portfolio" section
+*   Footer
 
-### Implemented Features & Page Structure
+The site uses placeholder images and has a minimal design.
 
-#### Main Page (`index.html`)
+## Redesign Plan
 
-A single-page application with the following sections:
+The redesign will focus on the following areas:
 
-1.  **Header & Navigation:**
-    *   A sticky header with the company logo and navigation links.
+### 1. Visual Design
 
-2.  **Hero Section:**
-    *   **Visual:** A blended background showing a Sanskrit manuscript merging into a binary code pattern.
-    *   **Headline:** "Coding the Future, Rooted in Tradition."
-    *   **Call to Action:** A prominent button with a golden gradient.
+*   **Color Palette:** Implement a professional color scheme that reflects the company's brand.
+*   **Typography:** Utilize the "Poppins" and "Khand" fonts to create a clear and engaging visual hierarchy.
+*   **Layout:** Improve spacing, alignment, and overall composition for a more polished look.
+*   **Iconography:** Use icons to enhance the "Our Verticals" section.
+*   **Imagery:** Replace placeholder images with more relevant and high-quality images.
 
-3.  **Our Verticals (Services) Section:**
-    *   A two-part section showcasing the company's diverse offerings: Tech Services and Yagya Ashram.
+### 2. Web Components
 
-4.  **Founder's Corner:**
-    *   A dedicated section for the founder, presented with a modern-traditional aesthetic.
+*   **`nsm-card`:** Create a custom web component for the portfolio items. This will encapsulate the card's structure, style, and behavior, making it reusable and easy to manage.
 
-5.  **Portfolio/Products Section:**
-    *   A grid layout to display a mix of technology projects and natural products using reusable Web Components.
+### 3. Responsiveness
 
-6.  **Footer:**
-    *   Contains official company information, copyright notice, and links to legal pages.
+*   Ensure the website is fully responsive and provides an optimal viewing experience on all devices (desktops, tablets, and mobile phones).
 
-#### Legal Pages
+### 4. Code Refinements
 
-*   **`privacy.html`**: A separate page for the Privacy Policy.
-*   **`terms.html`**: A separate page for the Terms of Service.
+*   **HTML:** Update the HTML structure to be more semantic and accessible.
+*   **CSS:** Rewrite the CSS in `style.css` to implement the new design.
+*   **JavaScript:** Create the `nsm-card` web component in `main.js`.
 
-## Current Plan: Design Enhancement & Legal Pages
+## Actionable Steps
 
-The following steps will be taken to improve the design and add legal pages:
-
-1.  **Enhance CSS (`style.css`):**
-    *   Add a subtle animated gradient to the background for a more dynamic feel.
-    *   Improve the hero section with better text effects.
-    *   Redesign the "Verticals" cards to be more distinct and visually appealing, with icon-specific colors.
-    *   Add a decorative border/frame to the "Founder's Corner".
-    *   Update the footer design to be more modern and include links to the new legal pages.
-    *   Create a dedicated style for the legal pages (`legal.css`).
-
-2.  **Update `index.html`:**
-    *   Modify the footer to include links to `privacy.html` and `terms.html`.
-
-3.  **Create Legal Pages:**
-    *   Create `privacy.html` with placeholder content for the Privacy Policy.
-    *   Create `terms.html` with placeholder content for the Terms of Service.
-    *   Link both pages to a new `legal.css` for consistent styling.
+1.  **Update `blueprint.md`:** Create this document to outline the project plan.
+2.  **Update `style.css`:** Implement the new design with a modern and responsive layout.
+3.  **Update `main.js`:** Create the `<nsm-card>` web component.
+4.  **Update `index.html`:** Refine the content and structure to align with the new design.

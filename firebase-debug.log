@@ -2,199 +2,174 @@
 [error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
 [error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
 [error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2025-12-31T15:46:12.557Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:46:12.558Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2025-12-31T15:47:12.582Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2025-12-31T15:47:12.586Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:47:35.339Z] Running auto auth
-[debug] [2025-12-31T15:47:35.339Z] Running auto auth
-[debug] [2025-12-31T15:47:35.340Z] Running auto auth
-[debug] [2025-12-31T15:47:35.340Z] Running auto auth
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2025-12-31T15:47:35.500Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:47:35.500Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2025-12-31T15:47:35.505Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:47:35.506Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2025-12-31T15:47:35.509Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:47:35.509Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2025-12-31T15:47:35.512Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:47:35.512Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2025-12-31T15:47:35.516Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:47:35.516Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2025-12-31T15:47:35.518Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:47:35.518Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2025-12-31T15:48:12.052Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:48:12.055Z] > authorizing via signed-in user (info@acharypdt.com)
-[debug] [2025-12-31T15:48:12.076Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:48:12.077Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2025-12-31T15:48:12.101Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:48:12.101Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2025-12-31T15:48:12.102Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:48:12.103Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2025-12-31T15:48:12.123Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:48:12.123Z] > authorizing via signed-in user (info@acharypdt.com)
-[debug] [2025-12-31T15:48:12.126Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:48:12.126Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2025-12-31T15:48:12.128Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:48:12.128Z] > authorizing via signed-in user (info@acharypdt.com)
-[debug] [2025-12-31T15:48:12.128Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-12-31T15:48:12.128Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T09:53:27.032Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:53:27.034Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:53:48.572Z] Running auto auth
-[debug] [2026-01-04T09:53:48.573Z] Running auto auth
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T09:53:48.638Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:53:48.640Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T09:53:48.644Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:53:48.644Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T09:53:48.669Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:53:48.669Z] > authorizing via signed-in user (info@acharypdt.com)
-[debug] [2026-01-04T09:53:48.669Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:53:48.669Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T09:53:48.674Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:53:48.674Z] > authorizing via signed-in user (info@acharypdt.com)
-[debug] [2026-01-04T09:53:48.674Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:53:48.674Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T09:57:27.313Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:57:27.314Z] > authorizing via signed-in user (info@acharypdt.com)
-[debug] [2026-01-04T09:57:27.338Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:57:27.339Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T09:57:27.371Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:57:27.372Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T09:57:27.373Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:57:27.373Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T09:57:27.396Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:57:27.396Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T09:57:27.397Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:57:27.397Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T09:57:27.403Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:57:27.403Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T09:57:27.404Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T09:57:27.404Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T10:10:40.497Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:10:40.498Z] > authorizing via signed-in user (info@acharypdt.com)
-[debug] [2026-01-04T10:10:40.524Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:10:40.525Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T10:10:40.553Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:10:40.554Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T10:10:40.555Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:10:40.555Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T10:10:40.578Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:10:40.578Z] > authorizing via signed-in user (info@acharypdt.com)
-[debug] [2026-01-04T10:10:40.578Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:10:40.578Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T10:10:40.580Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:10:40.580Z] > authorizing via signed-in user (info@acharypdt.com)
-[debug] [2026-01-04T10:10:40.580Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:10:40.580Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T10:16:52.259Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:16:52.263Z] > authorizing via signed-in user (info@acharypdt.com)
-[debug] [2026-01-04T10:16:52.288Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:16:52.288Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T10:16:52.314Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:16:52.315Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T10:16:52.316Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:16:52.316Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T10:16:52.345Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:16:52.345Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T10:16:52.352Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:16:52.353Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T10:16:52.361Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:16:52.361Z] > authorizing via signed-in user (info@acharypdt.com)
-[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
-[debug] [2026-01-04T10:16:52.362Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2026-01-04T10:16:52.362Z] > authorizing via signed-in user (info@acharypdt.com)
+[debug] [2026-01-05T15:16:19.718Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-05T15:16:19.736Z] > authorizing via signed-in user (info@acharypdt.com)
+[debug] [2026-01-05T15:16:19.737Z] Checked if tokens are valid: false, expires at: 1767526106861
+[debug] [2026-01-05T15:16:19.738Z] Checked if tokens are valid: false, expires at: 1767526106861
+[debug] [2026-01-05T15:16:19.738Z] > refreshing access token with scopes: []
+[debug] [2026-01-05T15:16:19.741Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-01-05T15:16:19.741Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:16:19.745Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-05T15:16:19.745Z] > authorizing via signed-in user (info@acharypdt.com)
+[debug] [2026-01-05T15:16:19.746Z] Checked if tokens are valid: false, expires at: 1767526106861
+[debug] [2026-01-05T15:16:19.746Z] Checked if tokens are valid: false, expires at: 1767526106861
+[debug] [2026-01-05T15:16:19.746Z] > refreshing access token with scopes: []
+[debug] [2026-01-05T15:16:19.747Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-01-05T15:16:19.747Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:16:19.808Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-01-05T15:16:19.809Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:16:19.827Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo [none]
+[debug] [2026-01-05T15:16:19.830Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-01-05T15:16:19.830Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:16:19.839Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo [none]
+[debug] [2026-01-05T15:16:20.082Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo 200
+[debug] [2026-01-05T15:16:20.082Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo {"name":"projects/navasanganakah-official/billingInfo","projectId":"navasanganakah-official","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-05T15:16:20.111Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.113Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.114Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.114Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.114Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.114Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.115Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.115Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.115Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.115Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.115Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.115Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.116Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.116Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.138Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.138Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.139Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.139Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:20.140Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firestore.googleapis.com [none]
+[debug] [2026-01-05T15:16:20.140Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firestore.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:20.142Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/storage.googleapis.com [none]
+[debug] [2026-01-05T15:16:20.143Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/storage.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:20.145Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-01-05T15:16:20.145Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:20.148Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/identitytoolkit.googleapis.com [none]
+[debug] [2026-01-05T15:16:20.148Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:20.150Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/fcm.googleapis.com [none]
+[debug] [2026-01-05T15:16:20.150Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/fcm.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:20.152Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-01-05T15:16:20.152Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:20.154Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2026-01-05T15:16:20.154Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:20.155Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-01-05T15:16:20.156Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:20.158Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseio.com [none]
+[debug] [2026-01-05T15:16:20.158Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseio.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:21.051Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo 200
+[debug] [2026-01-05T15:16:21.052Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo {"name":"projects/navasanganakah-official/billingInfo","projectId":"navasanganakah-official","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-05T15:16:21.054Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.054Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.055Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.055Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.055Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.055Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.058Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.058Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.059Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.059Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.059Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.059Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.060Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.060Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.071Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.071Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.072Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.072Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:21.072Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firestore.googleapis.com [none]
+[debug] [2026-01-05T15:16:21.073Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firestore.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:21.075Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/storage.googleapis.com [none]
+[debug] [2026-01-05T15:16:21.075Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/storage.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:21.078Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-01-05T15:16:21.078Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:21.080Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/identitytoolkit.googleapis.com [none]
+[debug] [2026-01-05T15:16:21.081Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:21.083Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/fcm.googleapis.com [none]
+[debug] [2026-01-05T15:16:21.083Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/fcm.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:21.084Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-01-05T15:16:21.085Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:21.086Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2026-01-05T15:16:21.086Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:21.088Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-01-05T15:16:21.088Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:21.089Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseio.com [none]
+[debug] [2026-01-05T15:16:21.090Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseio.com x-goog-quota-user=projects/navasanganakah-official
+[debug] [2026-01-05T15:16:21.230Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseio.com 403
+[debug] [2026-01-05T15:16:21.231Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseio.com [omitted]
+[debug] [2026-01-05T15:16:21.348Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-01-05T15:16:21.348Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:21.371Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2026-01-05T15:16:21.372Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:21.390Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/cloudfunctions.googleapis.com 200
+[debug] [2026-01-05T15:16:21.390Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:21.405Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firestore.googleapis.com 200
+[debug] [2026-01-05T15:16:21.407Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firestore.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:21.424Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-01-05T15:16:21.429Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:21.430Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/fcm.googleapis.com 200
+[debug] [2026-01-05T15:16:21.430Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/fcm.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:21.449Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/storage.googleapis.com 200
+[debug] [2026-01-05T15:16:21.450Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/storage.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:21.462Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/identitytoolkit.googleapis.com 200
+[debug] [2026-01-05T15:16:21.462Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:22.113Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseio.com 403
+[debug] [2026-01-05T15:16:22.114Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseio.com [omitted]
+[debug] [2026-01-05T15:16:22.136Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/fcm.googleapis.com 200
+[debug] [2026-01-05T15:16:22.138Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/fcm.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:22.150Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-01-05T15:16:22.151Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:22.151Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2026-01-05T15:16:22.151Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:22.161Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/cloudfunctions.googleapis.com 200
+[debug] [2026-01-05T15:16:22.162Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:22.181Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-01-05T15:16:22.182Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:22.185Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firestore.googleapis.com 200
+[debug] [2026-01-05T15:16:22.186Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/firestore.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:22.199Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/identitytoolkit.googleapis.com 200
+[debug] [2026-01-05T15:16:22.200Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2026-01-05T15:16:22.225Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/storage.googleapis.com 200
+[debug] [2026-01-05T15:16:22.226Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navasanganakah-official/services/storage.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-01-05T15:16:22.264Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-05T15:16:22.264Z] > authorizing via signed-in user (info@acharypdt.com)
+[debug] [2026-01-05T15:16:22.265Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:22.265Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:22.265Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo [none]
+[debug] [2026-01-05T15:16:23.225Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo 200
+[debug] [2026-01-05T15:16:23.226Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo {"name":"projects/navasanganakah-official/billingInfo","projectId":"navasanganakah-official","billingAccountName":"","billingEnabled":false}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-01-05T15:16:23.231Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-05T15:16:23.231Z] > authorizing via signed-in user (info@acharypdt.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-01-05T15:16:23.291Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-05T15:16:23.291Z] > authorizing via signed-in user (info@acharypdt.com)
+[debug] [2026-01-05T15:16:23.292Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:23.292Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:23.292Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo [none]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-01-05T15:16:23.317Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-05T15:16:23.318Z] > authorizing via signed-in user (info@acharypdt.com)
+[debug] [2026-01-05T15:16:23.318Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:23.318Z] Checked if tokens are valid: true, expires at: 1767629778830
+[debug] [2026-01-05T15:16:23.318Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo [none]
+[debug] [2026-01-05T15:16:24.266Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo 200
+[debug] [2026-01-05T15:16:24.267Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo {"name":"projects/navasanganakah-official/billingInfo","projectId":"navasanganakah-official","billingAccountName":"","billingEnabled":false}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-01-05T15:16:24.270Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-05T15:16:24.271Z] > authorizing via signed-in user (info@acharypdt.com)
+[debug] [2026-01-05T15:16:24.287Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo 200
+[debug] [2026-01-05T15:16:24.289Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/navasanganakah-official/billingInfo {"name":"projects/navasanganakah-official/billingInfo","projectId":"navasanganakah-official","billingAccountName":"","billingEnabled":false}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-01-05T15:16:24.291Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-01-05T15:16:24.292Z] > authorizing via signed-in user (info@acharypdt.com)
