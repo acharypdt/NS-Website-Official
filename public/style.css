@@ -1,112 +1,157 @@
 
 :root {
-    --primary-color: #6a11cb;
-    --secondary-color: #2575fc;
-    --text-color: #f0f0f0;
-    --bg-color: #121212;
-    --card-bg: rgba(255, 255, 255, 0.05);
-    --font-family-headings: 'Khand', sans-serif;
-    --font-family-body: 'Poppins', sans-serif;
+    --dharmik-saffron: #ff9933;
+    --radiant-marigold: #ffc300;
+    --majestic-purple: #8a2be2;
+    --cosmic-void: #0d021a;
+    --star-white: #f0f8ff;
+    --font-family-headings: 'Orbitron', sans-serif;
+    --font-family-body: 'Rajdhani', sans-serif;
 }
 
 body {
     font-family: var(--font-family-body);
     margin: 0;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    background-color: var(--cosmic-void);
+    color: var(--star-white);
+    background-image: linear-gradient(rgba(13, 2, 26, 0.95), rgba(74, 13, 102, 0.8)), url('https://www.transparenttextures.com/patterns/stardust.png');
+    overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.akarshan {
     font-family: var(--font-family-headings);
+    font-size: 4.5rem;
     font-weight: 700;
-    color: #fff;
+    color: var(--radiant-marigold);
+    text-shadow: 0 0 15px var(--radiant-marigold), 0 0 25px var(--dharmik-saffron), 0 0 40px var(--majestic-purple);
+    animation: dharmik-glow 2.5s ease-in-out infinite alternate;
+}
+
+.rangeela {
+    font-family: var(--font-family-body);
+    font-size: 1.7rem;
+    color: var(--star-white);
+    text-shadow: 0 0 8px var(--majestic-purple), 0 0 12px var(--majestic-purple);
+}
+
+#cursor-dust {
+    position: fixed;
+    width: 12px;
+    height: 12px;
+    background: var(--radiant-marigold);
+    border-radius: 50%;
+    pointer-events: none;
+    box-shadow: 0 0 25px var(--radiant-marigold), 0 0 50px var(--radiant-marigold), 0 0 90px var(--dharmik-saffron);
+    animation: trail 0.6s linear infinite;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes trail {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
 }
 
 .hero {
+    position: relative;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1526374965328-5f61d4dc18c5?q=80&w=2070&auto=format&fit=crop');
-    background-size: cover;
-    background-position: center;
 }
 
-.hero-content h1 {
-    font-size: 5rem;
-    margin-bottom: 1rem;
+#sri-yantra-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
-.hero-content p {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+.hero-content {
+    z-index: 1;
 }
 
-.cta-primary {
-    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
-    color: white;
+.home-section {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 6rem 2rem;
+    animation: float-up 1s ease-out;
+}
+
+.glass-card {
+    background: rgba(138, 43, 226, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 195, 0, 0.2);
+    padding: 2.5rem;
+    width: 420px;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.4);
+}
+
+.glass-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 0 20px var(--majestic-purple), 0 0 40px var(--radiant-marigold);
+}
+
+.glass-card h2 {
+    font-family: var(--font-family-headings);
+    color: var(--dharmik-saffron);
+    text-shadow: 0 0 8px var(--dharmik-saffron);
+}
+
+.cta-link {
+    display: inline-block;
+    margin-top: 1.5rem;
     padding: 1rem 2rem;
+    background: linear-gradient(90deg, var(--dharmik-saffron), var(--radiant-marigold));
+    color: var(--cosmic-void);
     text-decoration: none;
     border-radius: 50px;
-    font-weight: 600;
-    transition: transform 0.3s ease;
+    font-weight: 700;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.cta-primary:hover {
+.cta-link:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 15px var(--radiant-marigold);
 }
 
-nav {
-    background: var(--card-bg);
-    backdrop-filter: blur(10px);
-    padding: 1rem 2rem;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(13, 2, 26, 0.5);
+    border-top: 1px solid rgba(255, 195, 0, 0.2);
 }
 
-nav .logo a {
-    font-family: var(--font-family-headings);
-    font-size: 2rem;
-    color: #fff;
-    text-decoration: none;
+@keyframes float-up {
+    from {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+@keyframes dharmik-glow {
+    from {
+        text-shadow: 0 0 15px var(--radiant-marigold), 0 0 25px var(--dharmik-saffron), 0 0 40px var(--majestic-purple);
+    }
+    to {
+        text-shadow: 0 0 25px var(--radiant-marigold), 0 0 40px var(--dharmik-saffron), 0 0 60px var(--majestic-purple);
+    }
 }
-
-nav ul li {
-    margin-left: 2rem;
-}
-
-nav ul li a {
-    color: var(--text-color);
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: var(--secondary-color);
-}
-
-.fade-in {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
-
-.fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
