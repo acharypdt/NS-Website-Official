@@ -5,20 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service - NavaSanganakah Multiventures</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Khand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">NavaSanganakah</div>
-            <ul>
-                <li><a href="index.html#services">Services</a></li>
-                <li><a href="index.html#shop">Shop</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#projects">Projects</a></li>
-                <li><a href="index.html#blog">Blog</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <nav-bar></nav-bar>
     </header>
     <main class="legal-container">
         <h1>Terms of Service</h1>
@@ -33,27 +25,38 @@
         <h3>5. Governing Law</h3>
         <p>These terms and conditions are governed by and construed in accordance with the laws of India and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.</p>
     </main>
-    <footer id="contact">
+    <footer>
         <div class="footer-content">
-            <div class="contact-info">
+             <div class="footer-section about-us fade-in">
+                <h3>NavaSanganakah</h3>
+                <p>A venture dedicated to bridging the gap between ancient wisdom and modern technology, creating a harmonious future.</p>
+            </div>
+            <div class="footer-section links fade-in">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-info fade-in">
                 <h3>Contact Us</h3>
-                <p>Phone: +919669509951</p>
-                <p>Email: info@navasanganakah.com</p>
+                <p><i class="fas fa-phone"></i> +91 9669509951</p>
+                <p><i class="fas fa-envelope"></i> info@navasanganakah.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Suthaliya, Rajgarh, MP</p>
             </div>
-            <div class="address">
-                <h3>Registered Office</h3>
-                <p>Gindorhat, Biaora Sironj Road, Suthaliya, District Rajgarh, Madhya Pradesh - 465677</p>
-            </div>
-            <div class="legal-info">
-                <h3>Government Registered</h3>
-                <p>GSTIN: 23CXEPT4904P1ZZ</p>
-                <p>Udyam Registration No: UDYAM-MP-36-0053662</p>
+             <div class="footer-section legal-info fade-in">
+                <h3>Registered Info</h3>
+                <p><strong>GSTIN:</strong> 23CXEPT4904P1ZZ</p>
+                <p><strong>Udyam:</strong> UDYAM-MP-36-0053662</p>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 NavaSanganakah Multiventures. All Rights Reserved.</p>
+        <div class="footer-bottom fade-in">
+            <p>&copy; <span id="copyright-year">2023</span> NavaSanganakah Multiventures. All Rights Reserved.</p>
             <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
         </div>
     </footer>
+    <script src="main.js" type="module"></script>
 </body>
 </html>

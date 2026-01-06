@@ -1,73 +1,49 @@
 
-class NsmCard extends HTMLElement {
-    constructor() {
-        super();
-        const shadow = this.attachShadow({ mode: 'open' });
-
-        const card = document.createElement('div');
-        card.setAttribute('class', 'card');
-
-        const title = document.createElement('h3');
-        title.textContent = this.getAttribute('title');
-
-        const image = document.createElement('img');
-        image.src = this.getAttribute('image');
-        image.alt = this.getAttribute('title');
-
-        const description = document.createElement('p');
-        description.textContent = this.getAttribute('description');
-
-        const style = document.createElement('style');
-        style.textContent = `
-            .card {
-                background-color: #1f1f1f;
-                border-radius: 10px;
-                padding: 1.5rem;
-                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 153, 51, 0.2);
-                text-align: center;
-                transition: transform 0.3s ease;
-                display: flex;
-                flex-direction: column;
-                height: 100%;
-            }
-            .card:hover {
-                transform: translateY(-10px);
-            }
-            .card img {
-                max-width: 100%;
-                border-radius: 5px;
-                margin-bottom: 1rem;
-            }
-            h3 {
-                font-family: 'Khand', sans-serif;
-                color: #FF9933;
-                font-size: 1.5rem;
-                margin-bottom: 0.5rem;
-            }
-            p {
-                color: #ccc;
-                font-size: 1rem;
-                flex-grow: 1;
-            }
-        `;
-
-        shadow.appendChild(style);
-        shadow.appendChild(card);
-        card.appendChild(image);
-        card.appendChild(title);
-        card.appendChild(description);
-    }
+class NavBar extends HTMLElement {
+  constructor() {
+    super();
+    const shadow = this.attachShadow({ mode: 'open' });
+    shadow.innerHTML = `
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <nav>
+        <div class="logo"><a href="index.html">NavaSanganakah</a></div>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    `;
+  }
 }
 
-customElements.define('nsm-card', NsmCard);
+customElements.define('nav-bar', NavBar);
 
-document.addEventListener('DOMContentLoaded', () => {
-    const ctaButton = document.querySelector('.cta-button');
-    if (ctaButton) {
-        ctaButton.addEventListener('click', () => {
-            document.querySelector('#verticals').scrollIntoView({
-                behavior: 'smooth'
-            });
+document.addEventListener('DOMContentLoaded', function() {
+    const fadeInElements = document.querySelectorAll('.fade-in');
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
         });
+    }, { threshold: 0.1 });
+
+    fadeInElements.forEach(element => {
+        observer.observe(element);
+    });
+
+    // Dynamically update the copyright year
+    const copyrightSpan = document.getElementById('copyright-year');
+    if (copyrightSpan) {
+        const foundingYear = 2025;
+        const currentYear = new Date().getFullYear();
+        copyrightSpan.textContent = `${foundingYear} - ${currentYear}`;
     }
 });

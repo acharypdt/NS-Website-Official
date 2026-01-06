@@ -6,6 +6,8 @@
     <title>Contact Us | NavaSanganakah Multiventures</title>
     <meta name="description" content="Contact NavaSanganakah Multiventures for software development, astrology consultancy, or any other inquiries. Find our phone number, email, and office address.">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Khand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         .contact-form-container {
             max-width: 800px;
@@ -22,37 +24,27 @@
             border-radius: 5px;
             border: 1px solid rgba(255, 255, 255, 0.2);
             background: rgba(255, 255, 255, 0.1);
-            color: var(--light-slate);
+            color: var(--text-color);
         }
         .contact-form button {
             width: 100%;
             padding: 1rem;
             border: none;
             border-radius: 5px;
-            background: linear-gradient(45deg, var(--warm-gold), var(--saffron));
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
             color: var(--white);
             font-weight: bold;
             cursor: pointer;
             transition: all 0.3s ease;
         }
         .contact-form button:hover {
-            box-shadow: 0 0 20px var(--warm-gold);
+            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo"><a href="index.html">NavaSanganakah</a></div>
-            <ul>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <nav-bar></nav-bar>
     </header>
     <main>
         <section id="contact" class="fade-in">
@@ -67,7 +59,7 @@
             </div>
         </section>
     </main>
-    <footer id="contact-footer">
+    <footer>
         <div class="footer-content">
              <div class="footer-section about-us fade-in">
                 <h3>NavaSanganakah</h3>
@@ -99,7 +91,6 @@
             <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
         </div>
     </footer>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <script src="main.js" type="module"></script>
 </body>
 </html>
