@@ -78,6 +78,7 @@ body {
 
 .hero-content {
     z-index: 1;
+    padding: 0 1rem;
 }
 
 .home-section {
@@ -196,3 +197,77 @@ footer {
     border-radius: 15px;
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.3);
 }
+
+/* --- Responsive Design --- */
+
+@media (max-width: 992px) {
+    .home-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 4rem 1rem;
+    }
+
+    .glass-card {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .akarshan {
+        font-size: 3.5rem;
+    }
+
+    .rangeela {
+        font-size: 1.4rem;
+        padding: 0 1rem;
+    }
+
+    nav-bar nav {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    nav-bar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    nav-bar ul li {
+        margin: 0.5rem;
+    }
+
+    .home-section {
+        padding: 3rem 1rem;
+    }
+
+    .glass-card {
+        width: 90%;
+        padding: 2rem;
+    }
+
+    .contact-form-container, .legal-container {
+        width: 90%;
+        margin: 4rem auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .akarshan {
+        font-size: 2.5rem;
+    }
+
+    .rangeela {
+        font-size: 1.2rem;
+    }
+    
+    nav-bar ul li {
+        margin: 0.2rem 0.5rem;
+    }
+
+    .cta-link {
+        padding: 0.8rem 1.5rem;
+    }
+}
+
