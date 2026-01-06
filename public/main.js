@@ -210,7 +210,7 @@ function initSriYantraAnimation() {
 
     // Bindu (central point)
     const binduGeometry = new THREE.CircleGeometry(0.2, 32);
-    const binduMaterial = new THREE.MeshBasicMaterial({ color: 0xffc300, emissive: 0xffc300 });
+    const binduMaterial = new THREE.MeshBasicMaterial({ color: 0xffc300 });
     const bindu = new THREE.Mesh(binduGeometry, binduMaterial);
     group.add(bindu);
 
