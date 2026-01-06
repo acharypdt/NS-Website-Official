@@ -1,57 +1,34 @@
-
-# NavaSanganakah Multiventures - Blueprint
+# Project Blueprint
 
 ## Overview
 
-This document outlines the design, features, and technical implementation of the NavaSanganakah Multiventures website. The goal is to create an immersive, high-end web experience that fuses futuristic technology with ancient Vedic astrology, embodying a "Neo-Vedic Cyberpunk" aesthetic.
+This project is a modern, responsive website for NavaSanganakah Multiventures, a company that blends ancient wisdom with modern technology. The website showcases their services, projects, and products, while also providing information about the company and a way to contact them.
 
-## Approved Design & Style
+## Design and Features
 
-### Core Concept: Neo-Vedic Cyberpunk (Astro-Spiritual Feel)
+### Aesthetics
 
-*   **Vibe:** Mystical yet highly advanced, attractive (Akarshan), vibrant (Rangeela), and full of dynamic motion. The final design emphasizes a spiritual, "dharmik," and "chamakdar" (shiny/glowing) astro feeling.
-*   **Visuals:** A fusion of futuristic digital elements and sacred ancient Vedic symbols, particularly the Sri Yantra.
+*   **Color Palette:** The color scheme is inspired by cosmic and spiritual themes, with a primary palette of `--dharmik-saffron`, `--radiant-marigold`, `--majestic-purple`, `--cosmic-void`, and `--star-white`.
+*   **Typography:** The website uses the 'Orbitron' font for headings and 'Rajdhani' for body text, creating a futuristic and clean look.
+*   **Background:** A stardust background texture is used to enhance the cosmic theme.
+*   **Glassmorphism:** The UI features glass-like cards with blurred backgrounds and subtle borders, creating a sense of depth.
+*   **Glow Effects:** Headings and other elements have a neon glow effect, adding to the futuristic aesthetic.
 
-### Color Palette (Final)
+### Interactivity
 
-*   **Primary Background:** `--cosmic-void` (#0d021a) - A deep, dark purple representing the cosmos.
-*   **Spiritual Accents:**
-    *   `--dharmik-saffron` (#ff9933)
-    *   `--radiant-marigold` (#ffc300)
-*   **Mystical Accent:** `--majestic-purple` (#8a2be2)
-*   **Text & Stars:** `--star-white` (#f0f8ff)
-*   **Overall Look:** Vibrant, glowing, and energetic, with light emerging from cosmic darkness, creating a divine and sacred atmosphere.
+*   **Cursor Dust Trail:** A custom cursor effect leaves a trail of dust-like particles, enhancing the user experience.
+*   **Scroll Animations:** Elements fade in and float up as the user scrolls down the page.
+*   **Hover Effects:** Cards and links have hover effects that change their appearance and provide visual feedback.
+*   **3D Animation:** The hero section features a 3D Sri Yantra animation created with Three.js.
 
-### Typography (Final)
+### Components
 
-*   **Headings:** `Orbitron` (modern, futuristic Sans-Serif) - Used for a high-tech feel.
-*   **Body/Subtitles:** `Rajdhani` (elegant, slightly traditional) - Provides a clean and readable counterpoint.
+*   **Navbar:** A custom navigation bar component (`<nav-bar>`) provides consistent navigation across all pages.
+*   **Footer:** A custom footer component (`<footer-component>`) displays contact information, links, and copyright information.
 
-### Layout & Effects (Final)
+## Current Plan
 
-*   **Glassmorphism:** Content cards use a frosted glass effect with a `--majestic-purple` tint (`rgba(138, 43, 226, 0.1)`) and a `--radiant-marigold` border, creating a premium, layered look.
-*   **Parallax Scrolling:** Elements float upwards on scroll, adding depth.
-*   **Glow Effects:** Key elements like text and cards have a "chamakdar" neon glow to enhance the vibrant, energetic feel.
-
-## Approved Features & Interactivity
-
-### Hero Section
-
-*   **Central Element:** A detailed, animated 3D Sri Yantra created with Three.js. It features two sets of interlocking triangles (upward in purple, downward in saffron) that rotate in opposite directions. The central "Bindu" point pulses with a golden light.
-*   **Background:** A field of 15,000 twinkling digital stars provides a sense of deep space.
-
-### Cursor Effects
-
-*   **Trail:** The cursor leaves a trail of sparkling "stardust" using the `--radiant-marigold` color to enhance interactivity and visual appeal.
-
-### Animations & Motion
-
-*   **Scroll Animations:** Sections and cards float upwards gracefully as the user scrolls down.
-*   **Hover Effects:** Interactive elements like cards and buttons have enhanced glow and transform effects on hover.
-
-## Development Status
-
-### Homepage Redesign
-
-*   **Status:** **Completed and Approved.**
-*   **Action:** The homepage has been redesigned and finalized according to the user's feedback to create a more spiritual and astrological ("astro feeling") experience. This design is now the official blueprint for all future development.
+*   **Fix Three.js Error:** Resolve the JavaScript error caused by a breaking change in the Three.js library.
+*   **Consolidate Styles:** Move all inline styles from the HTML files to the `style.css` file.
+*   **Update HTML Structure:** Update the HTML files to use the new custom components and remove the old footer structure.
+*   **Create Blueprint:** Create a `blueprint.md` file to document the project.

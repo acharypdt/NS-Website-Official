@@ -64,6 +64,54 @@ class NavBar extends HTMLElement {
 
 customElements.define('nav-bar', NavBar);
 
+class FooterComponent extends HTMLElement {
+  constructor() {
+    super();
+    const shadow = this.attachShadow({ mode: 'open' });
+    shadow.innerHTML = `
+      <style>
+        footer {
+            background: rgba(13, 2, 26, 0.5);
+            backdrop-filter: blur(12px);
+            padding: 2rem;
+            text-align: center;
+            border-top: 1px solid rgba(255, 195, 0, 0.2);
+            color: #f0f8ff; /* star-white */
+            font-family: 'Rajdhani', sans-serif;
+        }
+        .footer-links {
+            margin-bottom: 1rem;
+        }
+        .footer-links a {
+            color: #ff9933; /* dharmik-saffron */
+            text-decoration: none;
+            margin: 0 1rem;
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+        }
+        .footer-links a:hover {
+            color: #ffc300; /* radiant-marigold */
+            text-shadow: 0 0 8px #ffc300;
+        }
+        .copyright {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+      </style>
+      <footer>
+        <div class="footer-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+        </div>
+        <div class="copyright">
+          &copy; <span id="copyright-year"></span> NavaSanganakah Multiventures. All Rights Reserved.
+        </div>
+      </footer>
+    `;
+  }
+}
+
+customElements.define('footer-component', FooterComponent);
+
 document.addEventListener('DOMContentLoaded', () => {
     // Cursor dust trail effect
     const cursorDust = document.getElementById('cursor-dust');
@@ -96,7 +144,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const copyrightSpan = document.getElementById('copyright-year');
     if (copyrightSpan) {
         copyrightSpan.textContent = new Date().getFullYear();
+    } else {
+      // Look for it in the shadow DOM of the footer
+      const footer = document.querySelector('footer-component');
+      if (footer && footer.shadowRoot) {
+        const shadowCopyrightSpan = footer.shadowRoot.getElementById('copyright-year');
+        if (shadowCopyrightSpan) {
+          shadowCopyrightSpan.textContent = new Date().getFullYear();
+        }
+      }
     }
+
 
     // Three.js Sri Yantra Animation
     initSriYantraAnimation();
@@ -158,10 +216,8 @@ function initSriYantraAnimation() {
 
     // Outer circles
     const circle1 = new THREE.LineLoop(new THREE.CircleGeometry(5, 128), saffronMaterial);
-    circle1.geometry.vertices.shift();
     group.add(circle1);
     const circle2 = new THREE.LineLoop(new THREE.CircleGeometry(5.5, 128), purpleMaterial);
-    circle2.geometry.vertices.shift();
     group.add(circle2);
 
     // Background stars
